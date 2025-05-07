@@ -4,6 +4,7 @@ import SingletonExample from './components/singletonExample/SingletonExample';
 import BuilderExample from './components/builderExample/BuilderExample';
 import StrategyExample from './components/strategyExample/StrategyExample';
 import IteratorExample from './components/iteratorExample/IteratorExample';
+import ObserverExample from './components/observerExample/ObserverExample';
 import logo from './logo.svg';
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
 
       <h3>Iterator</h3>
       <IteratorExample />
+      
+      <h3>Observer</h3>
+      <ObserverExample />
     </div>
   );
 }
