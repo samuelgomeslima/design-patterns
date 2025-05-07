@@ -3,6 +3,7 @@ import FactoryExample from './components/factoryExample/FactoryExample';
 import SingletonExample from './components/singletonExample/SingletonExample';
 import BuilderExample from './components/builderExample/BuilderExample';
 import StrategyExample from './components/strategyExample/StrategyExample';
+import IteratorExample from './components/iteratorExample/IteratorExample';
 import logo from './logo.svg';
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
       
       <h3>Strategy</h3>
       <StrategyExample />
+
+      <h3>Iterator</h3>
+      <IteratorExample />
     </div>
   );
 }
