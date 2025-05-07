@@ -2,6 +2,7 @@ import React from 'react';
 import FactoryExample from './components/factoryExample/FactoryExample';
 import SingletonExample from './components/singletonExample/SingletonExample';
 import BuilderExample from './components/builderExample/BuilderExample';
+import StrategyExample from './components/strategyExample/StrategyExample';
 import logo from './logo.svg';
 
 function App() {
@@ -35,6 +36,11 @@ function App() {
       <h3>Builder</h3>
       {card1}
       {card2}
+      
+      <h2>Behavioral Patterns</h2>
+      
+      <h3>Strategy</h3>
+      <StrategyExample />
     </div>
   );
 }
