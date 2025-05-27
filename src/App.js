@@ -6,6 +6,7 @@ import StrategyExample from './components/strategyExample/StrategyExample';
 import IteratorExample from './components/iteratorExample/IteratorExample';
 import ObserverExample from './components/observerExample/ObserverExample';
 import ProxyExample from './components/proxyExample/ProxyExample';
+import FacadeExample from './components/facadeExample/FacadeExample';
 import logo from './logo.svg';
 
 function App() {
@@ -55,6 +56,9 @@ function App() {
 
       <h3>Proxy</h3>
       <ProxyExample />
+
+      <h3>Facade</h3>
+      <FacadeExample />
     </div>
   );
 }
