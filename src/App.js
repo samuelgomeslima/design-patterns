@@ -7,6 +7,7 @@ import IteratorExample from './components/iteratorExample/IteratorExample';
 import ObserverExample from './components/observerExample/ObserverExample';
 import ProxyExample from './components/proxyExample/ProxyExample';
 import FacadeExample from './components/facadeExample/FacadeExample';
+import AdapterExample from './components/adapterExample/AdapterExample';
 import logo from './logo.svg';
 
 function App() {
@@ -59,6 +60,9 @@ function App() {
 
       <h3>Facade</h3>
       <FacadeExample />
+
+      <h3>Adapter</h3>
+      <AdapterExample />
     </div>
   );
 }
